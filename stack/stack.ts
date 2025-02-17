@@ -1,5 +1,7 @@
 import { IStack } from "../types/IStack";
-
+/**
+ * 栈结构: 后进先出
+ */
 class ArrayStack<T> implements IStack<T> {
     private data: T[] = []
     push(element: T) {
